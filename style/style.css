@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.header {
+.cap {
     background-color: #222;
     padding: 19px 0;
 }
@@ -16,16 +16,16 @@
     width: 100%;
 }
 
-.header-navi {
+.cap-navi {
     display: flex;
     justify-content: space-between;
 }
 
-.header-menu-item:not(:last-child) {
+.cap-menu-item:not(:last-child) {
     margin-right: 33px;
 }
 
-.header-logo-item:not(:last-child) {
+.cap-logo-item:not(:last-child) {
     margin-right: 41px;
 }
 
@@ -47,10 +47,23 @@
     border-left: #F16D7F solid 12px;
     padding-left: 16px;
     margin-bottom: 381px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    line-height: 38px;
+    font-size: 37px;
 }
 
-.slogan-decor-one {}
+/* Не получается отредактировать шрифт нужным образом */
+.slogan-decor {
+    font-weight: 700;
+    line-height: 32px;
+    font-size: 32px;
+}
 
-.slogan-decor-two {
+.slogan-empasis {
     color: #F16D7F;
+}
+
+.category {
+    display: flex;
 }
