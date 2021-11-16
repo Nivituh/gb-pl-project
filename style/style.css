@@ -3,3 +3,54 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.header {
+    background-color: #222;
+    padding: 19px 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1160px;
+    padding: 0 10px;
+    width: 100%;
+}
+
+.header-navi {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-menu-item:not(:last-child) {
+    margin-right: 33px;
+}
+
+.header-logo-item:not(:last-child) {
+    margin-right: 41px;
+}
+
+.slogan {
+    background-color: #F1E4E6;
+}
+
+.slogan-position {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    background: url(../img/Header-background.png) no-repeat -228px;
+    padding-top: 290px;
+}
+
+.slogan-text {
+    max-width: 405px;
+    border-left: #F16D7F solid 12px;
+    padding-left: 16px;
+    margin-bottom: 381px;
+}
+
+.slogan-decor-one {}
+
+.slogan-decor-two {
+    color: #F16D7F;
+}
