@@ -49,16 +49,17 @@
     padding-left: 16px;
     margin-bottom: 381px;
     font-family: 'Lato', sans-serif;
-    font-weight: 900;
+    font-weight: 700;
     line-height: 38px;
     font-size: 37px;
+    color: #222;
 }
 
 /* Не получается отредактировать шрифт нужным образом */
 .slogan-decor {
     font-weight: 700;
     line-height: 32px;
-    font-size: 32px;
+    font-size: 30px;
 }
 
 .slogan-empasis {
@@ -122,13 +123,14 @@
 .category-emphasis {
     font-family: 'Lato', sans-serif;
     font-size: 16px;
-    line-height: 19px;
+    font-weight: 400;
     margin-bottom: 10px;
 }
 
 .category-name {
     color: #F16D7F;
     font-size: 23px;
+    font-weight: 700;
 }
 
 .products {
@@ -156,6 +158,7 @@
 
 .card {
     max-width: 360px;
+    background-color: #F8F8F8;
 }
 
 .description {
