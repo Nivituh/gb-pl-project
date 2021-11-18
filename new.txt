@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap" rel="stylesheet">
+    <title>Title</title>
+</head>
+
+<body>
+    <header class="cap">
+        <nav class="container cap-navi">
+            <div class="logo">
+                <a class="cap-logo-item" href="#"><img src="img/logo.svg" alt="Logo"></a>
+                <img class="cap-logo-item" src="img/Search.svg" alt="Search">
+            </div>
+            <div class="menu">
+                <img class="cap-menu-item" src="img/Menu.svg" alt="Menu">
+                <a class="cap-menu-item" href="#"><img src="img/Account.svg" alt="Account"></a>
+                <a class="cap-menu-item" href="#"><img src="img/Basket.svg" alt="Basket"></a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="slogan">
+            <div class="container slogan-position">
+                <div class="slogan-text">
+                    <h1>THE BRAND <span class="slogan-decor">OF LUXERIOUS</span> <span
+                            class="slogan-decor slogan-empasis">FASHION</span></h1>
+                </div>
+            </div>
+        </section>
+        <section class="container category">
+            <div class="category-item for-women">
+                <!-- <img src="/img/For_women.png" alt="For_women"> -->
+                <p class="category-emphasis">30% OFF</p>
+                <h3 class="category-name">FOR WOMEN</h3>
+            </div>
+            <div class=" category-item for-man">
+                <!-- <img src="/img/For_man.png" alt="For_man"> -->
+                <p class="category-emphasis">HOT DEAL</p>
+                <h3 class="category-name">FOR MEN</h3>
+            </div>
+            <div class="category-item for-kids">
+                <!-- <img src="/img/For_kids.png" alt="For_kids"> -->
+                <p class="category-emphasis">NEW ARRIVALS</p>
+                <h3 class="category-name">FOR KIDS</h3>
+            </div>
+            <div class="category-item accesories">
+                <!-- <img src="/img/Accesories.png" alt="Accesories" class="last-cat-img"> -->
+                <p class="category-emphasis">LUXIROUS & TRENDY</p>
+                <h3 class="category-name">ACCESORIES</h3>
+            </div>
+        </section>
+        <section class="container products">
+            <h2 class="products-name">Fetured Items</h2>
+            <p class="products-text">Shop for items based on what we featured in this week</p>
+            <div class="cards">
+                <div class="card">
+                    <img src="/img/1.png" alt="">
+                    <div class="description">
+                        <h4>ELLERY X M'O CAPSULE</h4>
+                        <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym
+                            Ellery
+                            teams up with Moda Operandi.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/img/2.png" alt="">
+                    <h4>ELLERY X M'O CAPSULE</h4>
+                    <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery
+                        teams up with Moda Operandi.</p>
+                </div>
+                <div class="card">
+                    <img src="/img/3.png" alt="">
+                    <h4>ELLERY X M'O CAPSULE</h4>
+                    <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery
+                        teams up with Moda Operandi.</p>
+                </div>
+                <div class="card">
+                    <img src="/img/4.png" alt="">
+                    <h4>ELLERY X M'O CAPSULE</h4>
+                    <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery
+                        teams up with Moda Operandi.</p>
+                </div>
+                <div class="card">
+                    <img src="/img/5.png" alt="">
+                    <h4>ELLERY X M'O CAPSULE</h4>
+                    <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery
+                        teams up with Moda Operandi.</p>
+                </div>
+                <div class="card">
+                    <img src="/img/6.png" alt="">
+                    <h4>ELLERY X M'O CAPSULE</h4>
+                    <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery
+                        teams up with Moda Operandi.</p>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <section></section>
+            <section></section>
+            <section></section>
+        </footer>
+    </main>
+</body>
+
+</html>
