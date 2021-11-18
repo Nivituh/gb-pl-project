@@ -190,6 +190,7 @@
 }
 
 .product-button {
+    display: inline-block;
     text-decoration: none;
     font-family: 'Lato', sans-serif;
     font-size: 16px;
@@ -197,4 +198,42 @@
     color: #F26376;
     border: 1px solid #FF6A6A;
     padding: 15px 39px 14px;
+    margin-bottom: 95px;
+}
+
+.features {
+    background-color: #222224;
+}
+
+.features-cards {
+    display: flex;
+    gap: 30px;
+    padding: 103px 0px 104px;
+}
+
+.feature-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 360px;
+    padding: 0 32px;
+}
+
+.feature-img {
+    margin-bottom: 28px;
+}
+
+.feature-name {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #FBFBFB;
+    margin-bottom: 16px;
+}
+
+.feature-text {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    text-align: center;
+    color: #FBFBFB;
 }
