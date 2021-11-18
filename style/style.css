@@ -31,6 +31,7 @@
 
 .slogan {
     background-color: #F1E4E6;
+    margin-bottom: 65px;
 }
 
 .slogan-position {
@@ -66,4 +67,64 @@
 
 .category {
     display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.category-item {
+    /* line-height: 0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #fff;
+}
+
+/* Искал решение проблемы "контейнер больше контента в  нем содержащегося",
+если не задавать высоту, то лишние 4px можно убрать, убрав line-height, сомневаюсь,
+что данное решение верное, пока по-другому не знаю как, буду искать. Ширину последнего
+контейнера так подогнать не удалось, только через класс */
+
+.category-item:not(:last-child) {
+    max-width: 360px;
+    background-color: #594e4b;
+    padding: 102px 103px;
+}
+
+.category-item {
+    width: 100%;
+    background-color: #594e4b;
+    padding: 65px 490px;
+}
+
+/* .last-cat-img {
+    width: 100%;
+} */
+
+.for-women {
+    background: url(/img/For_women.png) no-repeat;
+}
+
+.for-man {
+    background: url(/img/For_man.png) no-repeat;
+}
+
+.for-kids {
+    background: url(/img/For_kids.png) no-repeat;
+}
+
+.accesories {
+    background: url(/img/Accesories.png) no-repeat;
+}
+
+.category-emphasis {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 10px;
+}
+
+.category-name {
+    color: #F16D7F;
+    font-size: 23px;
 }
