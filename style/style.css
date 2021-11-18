@@ -69,6 +69,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    margin-bottom: 96px;
 }
 
 .category-item {
@@ -115,6 +116,7 @@
 
 .accesories {
     background: url(/img/Accesories.png) no-repeat;
+    /* background-color: rgba(33, 22, 22, 0.7); */
 }
 
 .category-emphasis {
@@ -127,4 +129,29 @@
 .category-name {
     color: #F16D7F;
     font-size: 23px;
+}
+
+.products {
+    text-align: center;
+}
+
+.products-name {
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+}
+
+.products-text {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #9F9F9F;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card {
+    min-width: 360px;
 }
