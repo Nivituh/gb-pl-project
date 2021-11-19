@@ -97,6 +97,24 @@
     width: 100%;
     background-color: #594e4b;
     padding: 65px 490px;
+    position: relative;
+}
+
+/* Решил попробовать сделать затемнение через псевдоэлемент,
+не знаю насколько это верное решение. Вообще блок category
+вызывает массу сомнений. В частности: изображения по логике
+должны быть фоном, но тогда 4 "странных" класса надо создавать.
+Или вносить их через тег img, что проще, но вроде как нелогично
+Как все-таки правильно? */
+
+.category-item::after {
+    content: '';
+    background-color: rgba(33, 22, 22, 0.7);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
 
 /* .last-cat-img {
@@ -125,12 +143,14 @@
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 10px;
+    z-index: 1;
 }
 
 .category-name {
     color: #F16D7F;
     font-size: 23px;
     font-weight: 700;
+    z-index: 1;
 }
 
 .products {
@@ -236,4 +256,98 @@
     font-size: 13px;
     text-align: center;
     color: #FBFBFB;
+}
+
+.frame {
+    background: url(/img/Serfer.png) no-repeat;
+    background-size: 100%;
+    padding: 97px 0 126px;
+    position: relative;
+}
+
+.frame::after {
+    content: '';
+    background-color: rgba(244, 244, 244, 0.7);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+}
+
+.subscribe-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 360px;
+    position: relative;
+    z-index: 1;
+}
+
+.subscribe-info-img {
+    margin-bottom: 30px;
+}
+
+.subscribe-info-text {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #222224;
+}
+
+.subscribe-info-text-decor {
+    font-style: italic;
+}
+
+.subscribe {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.frame-form-name {
+    font-weight: 700;
+    font-size: 24px;
+    color: #222224;
+    margin-bottom: 17px;
+}
+
+.frame-form-text {
+    font-weight: 400;
+    font-size: 18px;
+    color: #222224;
+    margin-bottom: 32px;
+}
+
+.subscribe-email {
+    background-color: #E1E1E1;
+    padding: 20px 70px 19px 23px;
+    border-radius: 25px 0 0 25px;
+    border: 0px;
+
+}
+
+.subscribe-email:placeholder {
+    font-size: 14px;
+    align-items: center;
+    color: #222224;
+    opacity: 0.67;
+}
+
+.frame-form-button {
+    font-size: 14px;
+    padding: 19px 20px 19px 21px;
+    border: 0px;
+    border-radius: 0 25px 25px 0;
+    background-color: #F16D7F;
+    color: #FFFFFF;
+
+}
+
+.frame-form-button::placeholder {
+    font-size: 14px;
+    color: #FFFFFF;
 }

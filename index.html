@@ -153,7 +153,26 @@
                     </div>
                 </div>
             </section>
-            <section></section>
+            <section class="frame">
+                <!-- Изначально я думал <form></form> сделать вместо <div class="container frame-blocks">, чтобы объединить
+                    блок с фото и цитатой с полем ввода данных (как-бы по смыслу). После передумал, но полностью от идеи не
+                отказался. Как будет правильно сделать? -->
+                <div class="container frame-blocks">
+                    <div class="subscribe-info">
+                        <img src="/img/Intersect.svg" alt="The author of the quote" class="subscribe-info-img">
+                        <p class="subscribe-info-text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, <span
+                                class="subscribe-info-text-decor">a
+                                pulvinar purus condimentum</span> “</p>
+                    </div>
+                    <form action="#" class="subscribe">
+                        <h3 class="frame-form-name">SUBSCRIBE</h3>
+                        <p class="frame-form-text">FOR OUR NEWLETTER AND PROMOTION</p>
+                        <input class="subscribe-email" type="email" id="mail" name="user_mail"
+                            placeholder="Enter Your Email">
+                        <button class="frame-form-button" type="submit" id="mail">Subscribe</button>
+                    </form>
+                </div>
+            </section>
             <section></section>
         </footer>
     </main>
