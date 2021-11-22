@@ -61,7 +61,7 @@
     justify-content: flex-end;
     align-items: center;
     width: 100%;
-    background: url(/img/Header-background.png) no-repeat -228px;
+    background: url(../img/bg-header.png) no-repeat -228px;
     padding-top: 290px;
 }
 
@@ -96,7 +96,6 @@
 }
 
 .category-item {
-    /* line-height: 0; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -139,25 +138,20 @@
     left: 0;
 }
 
-/* .last-cat-img {
-    width: 100%;
-} */
-
 .for-women {
-    background: url(/img/For_women.png) no-repeat;
+    background: url(../img/card-women.png) no-repeat;
 }
 
 .for-man {
-    background: url(/img/For_man.png) no-repeat;
+    background: url(../img/card-man.png) no-repeat;
 }
 
 .for-kids {
-    background: url(/img/For_kids.png) no-repeat;
+    background: url(../img/card-kids.png) no-repeat;
 }
 
 .accesories {
-    background: url(/img/Accesories.png) no-repeat;
-    /* background-color: rgba(33, 22, 22, 0.7); */
+    background: url(../img/card-accesories.png) no-repeat;
 }
 
 .category-emphasis {
@@ -281,7 +275,7 @@
 }
 
 .frame {
-    background: url(/img/Serfer.png) no-repeat;
+    background: url(/img/bg-subscribe.png) no-repeat;
     background-size: 100%;
     padding: 97px 0 126px;
     position: relative;
