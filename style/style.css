@@ -56,35 +56,37 @@
     margin-bottom: 65px;
 }
 
+/* Фиксированную высоту не хочется задавать, "дикие паддинги" вышли, по-другому
+как - не знаю. */
+
 .slogan-position {
+    padding: 289px 0 381px 0;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    width: 100%;
     background: url(../img/bg-header.png) no-repeat -228px;
-    padding-top: 290px;
 }
 
 .slogan-text {
-    max-width: 405px;
-    border-left: #F16D7F solid 12px;
-    padding-left: 16px;
-    margin-bottom: 381px;
     font-family: 'Lato', sans-serif;
-    font-weight: 700;
-    line-height: 38px;
-    font-size: 37px;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 40px;
     color: #222;
+    border-left: 12px solid #F16D7F;
+    padding-left: 16px;
+    margin-right: 90px;
 }
 
 /* Не получается отредактировать шрифт нужным образом */
-.slogan-decor {
-    font-weight: 700;
-    line-height: 32px;
-    font-size: 30px;
+.slogan-text-small {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    color: #222;
 }
 
-.slogan-empasis {
+.slogan-text-pink {
     color: #F16D7F;
 }
 
@@ -281,6 +283,11 @@
     position: relative;
 }
 
+.frame-blocks {
+    display: flex;
+    justify-content: space-between;
+}
+
 .frame::after {
     content: '';
     background-color: rgba(244, 244, 244, 0.7);
@@ -302,7 +309,7 @@
 }
 
 .subscribe-info-img {
-    margin-bottom: 30px;
+    margin-bottom: 35px;
 }
 
 .subscribe-info-text {
@@ -318,10 +325,12 @@
 }
 
 .subscribe {
+    padding-top: 42px;
     font-family: 'Lato', sans-serif;
     text-align: center;
     position: relative;
     z-index: 1;
+    margin-right: 97px;
 }
 
 .frame-form-name {
@@ -360,10 +369,65 @@
     border-radius: 0 25px 25px 0;
     background-color: #F16D7F;
     color: #FFFFFF;
-
 }
 
 .frame-form-button::placeholder {
     font-size: 14px;
     color: #FFFFFF;
+}
+
+.copyright {
+    background-color: #222224;
+}
+
+.copy-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 24px;
+}
+
+.copy-text {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FBFBFB;
+}
+
+.social {
+    display: flex;
+    margin-bottom: 23px;
+}
+
+.soc-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    background-color: #fff;
+}
+
+.soc-card:not(:last-child) {
+    margin-right: 7.29px;
+}
+
+/* Прижимаю footer к полу */
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex-shrink: 0;
 }

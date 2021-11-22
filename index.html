@@ -26,13 +26,13 @@
             </div>
         </nav>
     </header>
-    <main>
+    <main class="main">
         <section class="slogan">
             <div class="container slogan-position">
-                <div class="slogan-text">
-                    <h1>THE BRAND <span class="slogan-decor">OFF LUXERIOUS</span><span
-                            class="slogan-decor slogan-empasis">FASHION</span></h1>
-                </div>
+                <!-- Можно ли вместо <br> использовать <wbr>? -->
+                <h1 class="slogan-text">THE BRAND <br> <span class="slogan-text-small">OF LUXERIOUS </span><span
+                        class="slogan-text-small slogan-text-pink">FASHION</span>
+                </h1>
             </div>
         </section>
         <section class="container category">
@@ -113,51 +113,62 @@
                 </div>
             </div><a href="#" class="product-button">Browse All Product</a>
         </section>
-        <footer>
-            <section class="features">
-                <div class="container features-cards">
-                    <div class="feature-card"><img src="img/icon-delivery.svg" alt="Truck" class="feature-img">
-                        <h4 class="feature-name">Free Delivery</h4>
-                        <p class="feature-text">Worldwide delivery on all. Authorit tively morph next-generation
-                            innov tion with extensive models.</p>
-                    </div>
-                    <div class="feature-card"><img src="img/icon-sale.svg" alt="Percent" class="feature-img">
-                        <h4 class="feature-name">Sales & discounts</h4>
-                        <p class="feature-text">Worldwide delivery on all. Authorit tively morph next-generation
-                            innov tion with extensive models.</p>
-                    </div>
-                    <div class="feature-card"><img src="img/icon-crown.svg" alt="Crown" class="feature-img">
-                        <h4 class="feature-name">Quality assurance</h4>
-                        <p class="feature-text">Worldwide delivery on all. Authorit tively morph next-generation
-                            innov tion with extensive models.</p>
-                    </div>
-                </div>
-            </section>
-            <section class="frame">
-                <!-- Изначально я думал <form>
-                        </form>сделать вместо <div class="container frame-blocks">,
-                        чтобы объединить блок с фото и цитатой с полем ввода данных (как-бы по смыслу). После
-                        передумал,
-                        но полностью от идеи не отказался. Как будет правильно сделать? -->
-                <div class="container frame-blocks">
-                    <div class="subscribe-info"><img src="/img/icon-intersect.svg" alt="The author of the quote"
-                            class="subscribe-info-img">
-                        <p class="subscribe-info-text">“Vestibulum quis porttitor dui ! Quisque viverra nunc
-                            mi,
-                            <span class="subscribe-info-text-decor">a pulvinar purus condimentum</span>“
-                        </p>
-                    </div>
-                    <form action="#" class="subscribe">
-                        <h3 class="frame-form-name">SUBSCRIBE</h3>
-                        <p class="frame-form-text">FOR OUR NEWLETTER AND PROMOTION</p><input class="subscribe-email"
-                            type="email" id="mail" name="user_mail" placeholder="Enter Your Email"><button
-                            class="frame-form-button" type="submit" id="mail">Subscribe</button>
-                    </form>
-                </div>
-            </section>
-            <section></section>
-        </footer>
     </main>
+    <footer class="footer">
+        <section class="features">
+            <div class="container features-cards">
+                <div class="feature-card"><img src="img/icon-delivery.svg" alt="Truck" class="feature-img">
+                    <h4 class="feature-name">Free Delivery</h4>
+                    <p class="feature-text">Worldwide delivery on all. Authorit tively morph next-generation
+                        innov tion with extensive models.</p>
+                </div>
+                <div class="feature-card"><img src="img/icon-sale.svg" alt="Percent" class="feature-img">
+                    <h4 class="feature-name">Sales & discounts</h4>
+                    <p class="feature-text">Worldwide delivery on all. Authorit tively morph next-generation
+                        innov tion with extensive models.</p>
+                </div>
+                <div class="feature-card"><img src="img/icon-crown.svg" alt="Crown" class="feature-img">
+                    <h4 class="feature-name">Quality assurance</h4>
+                    <p class="feature-text">Worldwide delivery on all. Authorit tively morph next-generation
+                        innov tion with extensive models.</p>
+                </div>
+            </div>
+        </section>
+        <section class="frame">
+            <!-- Изначально я думал <form>
+                                    </form>сделать вместо <div class="container frame-blocks">,
+                                    чтобы объединить блок с фото и цитатой с полем ввода данных (как-бы по смыслу). После
+                                    передумал,
+                                    но полностью от идеи не отказался. Как будет правильно сделать? -->
+            <div class="container frame-blocks">
+                <div class="subscribe-info"><img src="/img/icon-intersect.svg" alt="The author of the quote"
+                        class="subscribe-info-img">
+                    <p class="subscribe-info-text">“Vestibulum quis porttitor dui ! Quisque viverra nunc
+                        mi,
+                        <span class="subscribe-info-text-decor">a pulvinar purus condimentum</span>“
+                    </p>
+                </div>
+                <form action="#" class="subscribe">
+                    <h3 class="frame-form-name">SUBSCRIBE</h3>
+                    <p class="frame-form-text">FOR OUR NEWLETTER AND PROMOTION</p>
+                    <input class="subscribe-email" type="email" id="mail" name="user_mail"
+                        placeholder="Enter Your Email">
+                    <button class="frame-form-button" type="submit" id="mail">Subscribe</button>
+                </form>
+            </div>
+        </section>
+        <section class="copyright">
+            <div class="container copy-box">
+                <p class="copy-text">&copy; 2021 Brand All Rights Reserved.</p>
+                <div class="social">
+                    <div class="soc-card"><img src="img/ico-soc-f.svg" alt="facebook-icon"></div>
+                    <div class="soc-card"><img src="img/ico-soc-i.svg" alt="instagramm-icon"></div>
+                    <div class="soc-card"><img src="img/ico-soc-p.svg" alt="pinterest-icon"></div>
+                    <div class="soc-card"><img src="img/ico-soc-t.svg" alt="tweeter-icon"></div>
+                </div>
+            </div>
+        </section>
+    </footer>
 </body>
 
 </html>
