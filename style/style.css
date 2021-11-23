@@ -200,6 +200,12 @@
     background-color: #F8F8F8;
 }
 
+.card::before {
+    content: ;
+    position: absolute;
+
+}
+
 .description {
     padding: 25px 28px 20px 16px;
     /* display: flex;
@@ -237,6 +243,11 @@
     border: 1px solid #FF6A6A;
     padding: 15px 39px 14px;
     margin-bottom: 95px;
+}
+
+.product-button:hover {
+    color: #fff;
+    background-color: #F16D7F;
 }
 
 .features {
@@ -412,6 +423,10 @@
 .soc-card:not(:last-child) {
     margin-right: 7.29px;
 }
+
+/* .soc-card.ico-soc:hover {
+    background-color: #F16D7F;
+} */
 
 /* Прижимаю footer к полу */
 
